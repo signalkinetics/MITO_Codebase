@@ -1,0 +1,86 @@
+{
+    "processing": {
+        "use_cuda": true,
+        "use_simulation": true,
+        "use_segmentation": true,
+        "use_interpolated_processing": true,
+        "path_to_sam_weights": "src/segmentation/weights/sam_vit_h_4b8939.pth",
+        "path_to_data": "MITO_Dataset",
+        "robot_collected_extension": "",
+        "specular_extension": "_specular",
+        "edges_extension": "_edges",
+        "diffuse_extension": "_diffuse"
+    }, 
+    "robot_collected": {
+        "77_ghz": {
+            "normal": {
+                "min_f": 77.5001e9,
+                "max_f": 80.501e9,
+                "bandwidth": 3.0009e9 ,
+                "slope": 5861160,
+                "num_samples": 512,
+                "num_rx_antenna": 4,
+                "num_chirps": 1,
+                "periodicity": 0.125,
+                "num_frames": 110,
+                "sweep_time": 0
+            },
+            "almost-square": {
+                "min_f": 77.5001e9,
+                "max_f": 80.501e9,
+                "bandwidth": 3.0009e9 ,
+                "slope": 5861160,
+                "num_samples": 512,
+                "num_rx_antenna": 4,
+                "num_chirps": 1,
+                "periodicity": 0.003,
+                "num_frames": 4000,
+                "sweep_time": 0
+            }
+        },
+        "24_ghz": {
+            "normal": {
+                "min_f": 24.025e9,
+                "max_f": 24.225e9,
+                "bandwidth": 0.2e9 ,
+                "slope": 781250,
+                "num_samples": 256,
+                "num_rx_antenna": 1,
+                "num_chirps": 16,
+                "periodicity": 0.1,
+                "num_frames": 110,
+                "sweep_time": 0
+            },
+            "almost-square": {
+                "min_f": 24.025e9,
+                "max_f": 24.225e9,
+                "bandwidth": 0.2e9 ,
+                "slope": 781250,
+                "num_samples": 256,
+                "num_rx_antenna": 2,
+                "num_chirps": 16,
+                "periodicity": 0.1,
+                "num_frames": 110,
+                "sweep_time": 0
+            }
+        }
+    },
+    "simulation": {
+        "77_ghz": {
+            "min_f": 77.5e9,
+            "max_f": 80.5e9,
+            "bandwidth": 3e9,
+            "slope": 5859375,  
+            "num_samples": 512,
+            "num_rx_antenna": 1
+        },
+        "24_ghz": {
+            "min_f": 24.025e9,
+            "max_f": 24.225e9,
+            "bandwidth": 0.2e9,
+            "slope": 781250,
+            "num_samples": 256,
+            "num_rx_antenna": 1
+        }
+    }
+}
