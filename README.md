@@ -64,16 +64,17 @@ This is an advanced tutorial explaining in-depth how mmWave imaging works.
 
 ## Citing MITO
 If you found MITO helpful for your research, please consider citing us with the following BibTeX entry:
-@misc{dodds2025mitoenablingnonlineofsightperception,
-      title={MITO: Enabling Non-Line-of-Sight Perception using Millimeter-waves through Real-World Datasets and Simulation Tools}, 
-      author={Laura Dodds and Tara Boroushaki and Fadel Adib},
-      year={2025},
-      eprint={2502.10259},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2502.10259}, 
+```
+@misc{dodds2025mitoenablingnonlineofsightperception,  
+      title={MITO: Enabling Non-Line-of-Sight Perception using Millimeter-waves through Real-World Datasets and Simulation Tools},   
+      author={Laura Dodds and Tara Boroushaki and Fadel Adib},  
+      year={2025},  
+      eprint={2502.10259},  
+      archivePrefix={arXiv},  
+      primaryClass={cs.CV},  
+      url={https://arxiv.org/abs/2502.10259},   
 }
-
+```
 
 
 
