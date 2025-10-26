@@ -47,5 +47,6 @@ proc.wait()
 proc = subprocess.Popen("make;", shell=True, stdout=sys.stdout.fileno(), stderr=sys.stdout.fileno(), cwd="./src/data_processing/cpp")
 proc.wait()
 if utilities.load_param_json()['processing']['use_cuda']:
+    # Note: You may need to change c++11 to c++14 depending on your environment setup
     proc = subprocess.Popen("nvcc --cubin -arch sm_86 --std=c++11 imaging_gpu.cu -o imaging_gpu.o;", shell=True, stdout=sys.stdout.fileno(), stderr=sys.stdout.fileno(), cwd="./src/data_processing/cuda")
     proc.wait()

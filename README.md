@@ -18,6 +18,7 @@ This repository is tested on Ubuntu 22.04 with Python 3.10.
 4. Run `python3 setup.py --install` to run the install. Please note:
     1. This installs numpy 1.24.3, which is required for PSBody. If you are not planning to run the simulation, you can use a different version of numpy by changing requirements.txt.
     2. This setup will install requirements as needed, depending on the settings in param.json. It will only install GPU requirements if use_cuda is true, and it will only install simulation/segmentation requirements if use_simulation/use_segmentation are true. Please update params.json accordingly before running python3 setup.py
+    3. This setup assumes c++11. If your environment uses a different version of C++, please change line 51 in setup.py to match your environment. (Note: this only applies if you are planning to use a GPU for processing.)
 
 ## Accessing Data
 Our data is stored on a hugging face repository. To clone a copy of this repository, please follow these steps:
