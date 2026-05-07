@@ -1,8 +1,8 @@
 # MITO: Enabling Non-Line-of-Sight Perception using Millimeter-waves through Real-World Datasets and Simulation Tools
 
-Created by: Laura Dodds*, Tara Boroushaki*, and Fadel Adib
+Created by: Laura Dodds*, Tara Boroushaki*, Cusuh Ham, and Fadel Adib
 
-[[Paper](http://arxiv.org/abs/2502.10259)] [[Dataset](https://huggingface.co/datasets/SignalKinetics/MITO_Dataset)] [[Models](https://drive.google.com/file/d/1WzkjCBq-tK-8Il-dCjyOuNZ_oeNgd8AV/view?usp=sharing)]
+[[Paper](http://arxiv.org/abs/2502.10259)] [[Dataset](https://huggingface.co/datasets/SignalKinetics/MITO_Dataset)] [[Models](https://drive.google.com/file/d/1WzkjCBq-tK-8Il-dCjyOuNZ_oeNgd8AV/view?usp=sharing)] [[Sample of Raw Dataset](https://huggingface.co/datasets/SignalKinetics/sample_raw_MITO_dataset)]
 
 
 https://github.com/user-attachments/assets/b99041ab-b8b2-481a-a487-7e895c477a07
